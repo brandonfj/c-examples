@@ -4,14 +4,15 @@
 int main() {
 
     int v;
+    int b;
+    int f;
 
     // Llama a las 3 funciones
     funcion1();
     funcion2(5, 2.67);
     v = funcion3(10);
-    b = funcion4(10);
-    // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
+    b = funcion4(10);
     printf("b = %d\n", b);
     f = funcion5(10);
     printf("f = %d\n", f);
@@ -45,6 +46,6 @@ int funcion5(int x) {
 }
 int funcion4(int x) {
     printf("En funcion4()...\n");
-    int y = x - 2
+    int y = x - 2 ;
     return y;
 }

@@ -2,8 +2,5 @@
 void funcion1(void);
 void funcion2(int, float);
 int funcion3(int);
-<<<<<<< HEAD
 int funcion4(int);
-=======
-int funcion5(int)
->>>>>>> feature-branch
+int funcion5(int);
